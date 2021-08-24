@@ -1,2 +1,16 @@
-@import "./variables";
-@import "./reset";
+@import "./Helper/variables";
+@import "./Helper/mixin";
+@import "./Helper/function";
+
+@import "./Base/reset";
+@import "./Base/base";
+
+@import "./Layouts/header";
+@import "./Layouts/hero";
+@import "./Layouts/portfolio";
+@import "./Layouts/partner";
+@import "./Layouts/team";
+@import "./Layouts/blog";
+@import "./Layouts/contact";
+@import "./Layouts/footer";
+@import "./Layouts/menu";
